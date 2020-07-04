@@ -73,6 +73,9 @@
 		<module>microservicespringcloud-eureka-7001</module>
 		<module>microservicespringcloud-eureka-7002</module>
 		<module>microservicespringcloud-eureka-7003</module>
+
+		<module>microservicespringcloud-provider-8002</module>
+		<module>microservicespringcloud-provider-8003</module>
 	</modules>
 
 	<build>

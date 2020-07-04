@@ -12,7 +12,9 @@ import com.xiaojihua.springcloud.entities.Dept;
 
 @RestController
 public class DeptController_Consumer {
-	private static final String REST_URL_PREFIX = "http://localhost:8001";
+//	private static final String REST_URL_PREFIX = "http://localhost:8001";
+	//使用ribbon后直接写微服务的名称，具体调用哪一个由ribbon负载均衡策略来决定
+	private static final String REST_URL_PREFIX = "http://MICROSERVICECLOUD-DEPT";
 
 	@Autowired
 	private RestTemplate restTemplate;
