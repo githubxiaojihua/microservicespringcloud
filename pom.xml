@@ -76,6 +76,7 @@
 
 		<module>microservicespringcloud-provider-8002</module>
 		<module>microservicespringcloud-provider-8003</module>
+		<module>microservicespringcloud-consumer-dept-feign</module>
 	</modules>
 
 	<build>
