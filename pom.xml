@@ -78,6 +78,16 @@
 		<module>microservicespringcloud-provider-8003</module>
 		<module>microservicespringcloud-consumer-dept-feign</module>
 		<module>microservicespringcloud-provider-hystrix-8001</module>
+		<module>
+			microservicespringcloud-consumer-hystrix-dashboard
+		</module>
+		<module>microservicespringcloud-zuul-gateway-9527</module>
+		<module>microservicespringcloud-config-3344</module>
+		<module>microservicespringcloud-config-client-3355</module>
+		<module>
+			microservicespringcloud-config-eureka-client-7001
+		</module>
+		<module>microservicespringcloud-config-dept-client-8001</module>
 	</modules>
 
 	<build>
